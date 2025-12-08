@@ -74,6 +74,34 @@ minikube service kubeapp
 
 - Minikube ouvre automatiquement votre navigateur sur l’URL du Service.
 
+### Option B : Utiliser `minikube tunnel`
+
+Si la commande `minikube service` ne fonctionne pas (rare) :
+
+1. Lancez le tunnel dans un terminal :
+
+   ```sh
+   minikube tunnel
+   ```
+
+2. Récupérez l’IP du nœud Minikube :
+
+   ```sh
+   minikube ip
+   ```
+
+3. Ouvrez votre navigateur à l’adresse suivante :
+
+   ```
+   http://MINIKUBE_IP:NODE_PORT/
+   ```
+
+   Par exemple :
+
+   ```
+   http://192.168.49.2:31234/
+   ```
+
 ---
 
 ## 4. Tester la route `/`
