@@ -1,0 +1,41 @@
+# Compiled source files
+*.class
+*.o
+*.so
+*.exe
+*.dll
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Backup files
+*~
+*.swp
+*.bak
+
+# Environment files
+.env
+
+# Others
+*.out
